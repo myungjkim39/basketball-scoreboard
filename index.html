@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+   
+    <main class="container">
+
+      <div class="home">
+        <h3>HOME</h3>
+        <div class="scoreboard-home">
+          <h2 id="home-count">0</h2>
+        </div>
+        
+        <div class="buttons">
+          <button class="plusone-btn" id="one-pointer-home" onclick="homeAddOne()">
+            +1
+          </button>
+          <button class="plustwo-btn" id="two-pointer-home" onclick="homeAddTwo()">
+            +2
+          </button>
+          <button class="plusthree-btn" id="three-pointer-home" onclick="homeAddThree()">
+            +3
+          </button>
+          <button class="reset-btn" id="reset-home-score" onclick="resetHome()">
+            Reset
+          </button>
+        </div>
+      </div>
+
+      <div class="guest">
+        <h3>GUEST</h3>
+        <div class="scoreboard-guest">
+          <h2 id="guest-count">0</h2>
+        </div>
+
+<div class="buttons">
+
+  <button class="plusone-btn" id="one-pointer-guest" onclick="guestAddOne()">
+    +1
+  </button>
+  <button class="plustwo-btn" id="two-pointer-guest" onclick="guestAddTwo()">
+    +2
+  </button>
+  <button class="plusthree-btn" id="three-pointer-guest" onclick="guestAddThree()">
+    +3
+  </button>
+  <button class="reset-btn" id="reset-guest-score" onclick="resetGuest()">
+            Reset
+          </button>
+</div>
+
+      </div>
+    </div>
+    
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
